@@ -22,7 +22,7 @@ do
 	echo "Now processing $tag in $TEMP"
 	( cd openssl && git checkout-index -a -f --prefix=$TEMP/ )
 	( cd $TEMP && ./config > $TAGDIR/config.log )
-	( cd $TEMP && nice -n 15 make 2>&1 > $TAGDIR/build.log )
+	( cd $TEMP && nice -n 40 make 2>&1 > $TAGDIR/build.log )
 	( cd $TEMP && ./apps/openssl speed 2> $TAGDIR/speed.doing > $TAGDIR/speed.tables )
 	rm -rf $TEMP
 done
