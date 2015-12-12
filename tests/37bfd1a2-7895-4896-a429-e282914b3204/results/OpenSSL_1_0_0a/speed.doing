@@ -1,0 +1,203 @@
+Doing mdc2 for 3s on 16 size blocks: 2083430 mdc2's in 2.99s
+Doing mdc2 for 3s on 64 size blocks: 603535 mdc2's in 3.00s
+Doing mdc2 for 3s on 256 size blocks: 155059 mdc2's in 3.00s
+Doing mdc2 for 3s on 1024 size blocks: 39746 mdc2's in 3.00s
+Doing mdc2 for 3s on 8192 size blocks: 4830 mdc2's in 3.00s
+Doing md4 for 3s on 16 size blocks: 8717953 md4's in 3.00s
+Doing md4 for 3s on 64 size blocks: 7144402 md4's in 2.99s
+Doing md4 for 3s on 256 size blocks: 4741205 md4's in 3.00s
+Doing md4 for 3s on 1024 size blocks: 2111038 md4's in 3.00s
+Doing md4 for 3s on 8192 size blocks: 335573 md4's in 3.00s
+Doing md5 for 3s on 16 size blocks: 19274250 md5's in 3.00s
+Doing md5 for 3s on 64 size blocks: 11566441 md5's in 3.00s
+Doing md5 for 3s on 256 size blocks: 5112281 md5's in 3.00s
+Doing md5 for 3s on 1024 size blocks: 1600841 md5's in 3.00s
+Doing md5 for 3s on 8192 size blocks: 215788 md5's in 3.00s
+Doing hmac(md5) for 3s on 16 size blocks: 8606265 hmac(md5)'s in 3.00s
+Doing hmac(md5) for 3s on 64 size blocks: 6504733 hmac(md5)'s in 3.00s
+Doing hmac(md5) for 3s on 256 size blocks: 3827607 hmac(md5)'s in 2.99s
+Doing hmac(md5) for 3s on 1024 size blocks: 1451631 hmac(md5)'s in 3.00s
+Doing hmac(md5) for 3s on 8192 size blocks: 213932 hmac(md5)'s in 3.00s
+Doing sha1 for 3s on 16 size blocks: 19564576 sha1's in 3.00s
+Doing sha1 for 3s on 64 size blocks: 11344390 sha1's in 2.99s
+Doing sha1 for 3s on 256 size blocks: 5428118 sha1's in 2.98s
+Doing sha1 for 3s on 1024 size blocks: 1699846 sha1's in 2.99s
+Doing sha1 for 3s on 8192 size blocks: 234842 sha1's in 2.99s
+Doing sha256 for 3s on 16 size blocks: 10731511 sha256's in 3.00s
+Doing sha256 for 3s on 64 size blocks: 5889841 sha256's in 2.99s
+Doing sha256 for 3s on 256 size blocks: 2532914 sha256's in 3.00s
+Doing sha256 for 3s on 1024 size blocks: 767671 sha256's in 3.00s
+Doing sha256 for 3s on 8192 size blocks: 99192 sha256's in 3.00s
+Doing sha512 for 3s on 16 size blocks: 7130859 sha512's in 3.00s
+Doing sha512 for 3s on 64 size blocks: 7883448 sha512's in 3.00s
+Doing sha512 for 3s on 256 size blocks: 2724565 sha512's in 3.00s
+Doing sha512 for 3s on 1024 size blocks: 1037832 sha512's in 2.99s
+Doing sha512 for 3s on 8192 size blocks: 145130 sha512's in 3.00s
+Doing whirlpool for 3s on 16 size blocks: 4807081 whirlpool's in 3.00s
+Doing whirlpool for 3s on 64 size blocks: 2508806 whirlpool's in 3.00s
+Doing whirlpool for 3s on 256 size blocks: 1033455 whirlpool's in 3.00s
+Doing whirlpool for 3s on 1024 size blocks: 307856 whirlpool's in 3.00s
+Doing whirlpool for 3s on 8192 size blocks: 40847 whirlpool's in 3.00s
+Doing rmd160 for 3s on 16 size blocks: 5007100 rmd160's in 3.00s
+Doing rmd160 for 3s on 64 size blocks: 3276525 rmd160's in 3.00s
+Doing rmd160 for 3s on 256 size blocks: 1610962 rmd160's in 3.00s
+Doing rmd160 for 3s on 1024 size blocks: 532276 rmd160's in 3.00s
+Doing rmd160 for 3s on 8192 size blocks: 73868 rmd160's in 3.00s
+Doing rc4 for 3s on 16 size blocks: 76061120 rc4's in 3.00s
+Doing rc4 for 3s on 64 size blocks: 28783606 rc4's in 2.99s
+Doing rc4 for 3s on 256 size blocks: 8300831 rc4's in 3.00s
+Doing rc4 for 3s on 1024 size blocks: 2167477 rc4's in 3.00s
+Doing rc4 for 3s on 8192 size blocks: 273025 rc4's in 3.00s
+Doing des cbc for 3s on 16 size blocks: 11431770 des cbc's in 3.00s
+Doing des cbc for 3s on 64 size blocks: 2972099 des cbc's in 3.00s
+Doing des cbc for 3s on 256 size blocks: 743339 des cbc's in 3.00s
+Doing des cbc for 3s on 1024 size blocks: 187016 des cbc's in 3.00s
+Doing des cbc for 3s on 8192 size blocks: 23306 des cbc's in 3.00s
+Doing des ede3 for 3s on 16 size blocks: 4420442 des ede3's in 2.99s
+Doing des ede3 for 3s on 64 size blocks: 1120104 des ede3's in 3.00s
+Doing des ede3 for 3s on 256 size blocks: 278422 des ede3's in 3.00s
+Doing des ede3 for 3s on 1024 size blocks: 69201 des ede3's in 3.00s
+Doing des ede3 for 3s on 8192 size blocks: 8721 des ede3's in 3.00s
+Doing aes-128 cbc for 3s on 16 size blocks: 18395652 aes-128 cbc's in 3.00s
+Doing aes-128 cbc for 3s on 64 size blocks: 4874679 aes-128 cbc's in 3.00s
+Doing aes-128 cbc for 3s on 256 size blocks: 1196458 aes-128 cbc's in 3.00s
+Doing aes-128 cbc for 3s on 1024 size blocks: 314885 aes-128 cbc's in 3.00s
+Doing aes-128 cbc for 3s on 8192 size blocks: 39820 aes-128 cbc's in 3.00s
+Doing aes-192 cbc for 3s on 16 size blocks: 15555580 aes-192 cbc's in 3.00s
+Doing aes-192 cbc for 3s on 64 size blocks: 4120583 aes-192 cbc's in 3.00s
+Doing aes-192 cbc for 3s on 256 size blocks: 1049644 aes-192 cbc's in 3.00s
+Doing aes-192 cbc for 3s on 1024 size blocks: 262677 aes-192 cbc's in 2.99s
+Doing aes-192 cbc for 3s on 8192 size blocks: 32912 aes-192 cbc's in 3.00s
+Doing aes-256 cbc for 3s on 16 size blocks: 13308733 aes-256 cbc's in 3.00s
+Doing aes-256 cbc for 3s on 64 size blocks: 3527071 aes-256 cbc's in 3.00s
+Doing aes-256 cbc for 3s on 256 size blocks: 896265 aes-256 cbc's in 3.00s
+Doing aes-256 cbc for 3s on 1024 size blocks: 223066 aes-256 cbc's in 3.00s
+Doing aes-256 cbc for 3s on 8192 size blocks: 28103 aes-256 cbc's in 3.00s
+Doing aes-128 ige for 3s on 16 size blocks: 18922906 aes-128 ige's in 3.00s
+Doing aes-128 ige for 3s on 64 size blocks: 4832107 aes-128 ige's in 3.00s
+Doing aes-128 ige for 3s on 256 size blocks: 1225502 aes-128 ige's in 2.99s
+Doing aes-128 ige for 3s on 1024 size blocks: 301645 aes-128 ige's in 3.00s
+Doing aes-128 ige for 3s on 8192 size blocks: 37793 aes-128 ige's in 3.00s
+Doing aes-192 ige for 3s on 16 size blocks: 15797184 aes-192 ige's in 3.00s
+Doing aes-192 ige for 3s on 64 size blocks: 4043688 aes-192 ige's in 3.00s
+Doing aes-192 ige for 3s on 256 size blocks: 1013000 aes-192 ige's in 3.00s
+Doing aes-192 ige for 3s on 1024 size blocks: 252550 aes-192 ige's in 3.00s
+Doing aes-192 ige for 3s on 8192 size blocks: 31630 aes-192 ige's in 3.00s
+Doing aes-256 ige for 3s on 16 size blocks: 13694978 aes-256 ige's in 3.00s
+Doing aes-256 ige for 3s on 64 size blocks: 3514033 aes-256 ige's in 2.99s
+Doing aes-256 ige for 3s on 256 size blocks: 876950 aes-256 ige's in 3.00s
+Doing aes-256 ige for 3s on 1024 size blocks: 218656 aes-256 ige's in 3.00s
+Doing aes-256 ige for 3s on 8192 size blocks: 27469 aes-256 ige's in 3.00s
+Doing ghash for 3s on 16 size blocks: 168832072 ghash's in 3.00s
+Doing ghash for 3s on 64 size blocks: 67881627 ghash's in 3.00s
+Doing ghash for 3s on 256 size blocks: 19751792 ghash's in 3.00s
+Doing ghash for 3s on 1024 size blocks: 5203068 ghash's in 3.00s
+Doing ghash for 3s on 8192 size blocks: 652090 ghash's in 2.99s
+Doing camellia-128 cbc for 3s on 16 size blocks: 17111376 camellia-128 cbc's in 3.00s
+Doing camellia-128 cbc for 3s on 64 size blocks: 6343057 camellia-128 cbc's in 3.00s
+Doing camellia-128 cbc for 3s on 256 size blocks: 1788603 camellia-128 cbc's in 3.00s
+Doing camellia-128 cbc for 3s on 1024 size blocks: 465516 camellia-128 cbc's in 3.00s
+Doing camellia-128 cbc for 3s on 8192 size blocks: 58465 camellia-128 cbc's in 3.00s
+Doing camellia-192 cbc for 3s on 16 size blocks: 14186333 camellia-192 cbc's in 3.00s
+Doing camellia-192 cbc for 3s on 64 size blocks: 4922985 camellia-192 cbc's in 3.00s
+Doing camellia-192 cbc for 3s on 256 size blocks: 1366091 camellia-192 cbc's in 3.00s
+Doing camellia-192 cbc for 3s on 1024 size blocks: 349476 camellia-192 cbc's in 3.00s
+Doing camellia-192 cbc for 3s on 8192 size blocks: 43895 camellia-192 cbc's in 3.00s
+Doing camellia-256 cbc for 3s on 16 size blocks: 13863610 camellia-256 cbc's in 3.00s
+Doing camellia-256 cbc for 3s on 64 size blocks: 4873626 camellia-256 cbc's in 3.00s
+Doing camellia-256 cbc for 3s on 256 size blocks: 1314246 camellia-256 cbc's in 2.99s
+Doing camellia-256 cbc for 3s on 1024 size blocks: 339333 camellia-256 cbc's in 3.00s
+Doing camellia-256 cbc for 3s on 8192 size blocks: 42536 camellia-256 cbc's in 3.00s
+Doing idea cbc for 3s on 16 size blocks: 13935381 idea cbc's in 3.00s
+Doing idea cbc for 3s on 64 size blocks: 3632149 idea cbc's in 2.99s
+Doing idea cbc for 3s on 256 size blocks: 914073 idea cbc's in 3.00s
+Doing idea cbc for 3s on 1024 size blocks: 228816 idea cbc's in 3.00s
+Doing idea cbc for 3s on 8192 size blocks: 28519 idea cbc's in 3.00s
+Doing seed cbc for 3s on 16 size blocks: 13152051 seed cbc's in 3.00s
+Doing seed cbc for 3s on 64 size blocks: 3246033 seed cbc's in 3.00s
+Doing seed cbc for 3s on 256 size blocks: 821851 seed cbc's in 3.00s
+Doing seed cbc for 3s on 1024 size blocks: 204009 seed cbc's in 3.00s
+Doing seed cbc for 3s on 8192 size blocks: 25616 seed cbc's in 3.00s
+Doing rc2 cbc for 3s on 16 size blocks: 7586556 rc2 cbc's in 2.99s
+Doing rc2 cbc for 3s on 64 size blocks: 1917046 rc2 cbc's in 3.00s
+Doing rc2 cbc for 3s on 256 size blocks: 484613 rc2 cbc's in 3.00s
+Doing rc2 cbc for 3s on 1024 size blocks: 122019 rc2 cbc's in 3.00s
+Doing rc2 cbc for 3s on 8192 size blocks: 15152 rc2 cbc's in 3.00s
+Doing blowfish cbc for 3s on 16 size blocks: 19436579 blowfish cbc's in 2.99s
+Doing blowfish cbc for 3s on 64 size blocks: 5141404 blowfish cbc's in 3.00s
+Doing blowfish cbc for 3s on 256 size blocks: 1300390 blowfish cbc's in 3.00s
+Doing blowfish cbc for 3s on 1024 size blocks: 326758 blowfish cbc's in 3.00s
+Doing blowfish cbc for 3s on 8192 size blocks: 40935 blowfish cbc's in 3.00s
+Doing cast cbc for 3s on 16 size blocks: 17451130 cast cbc's in 3.00s
+Doing cast cbc for 3s on 64 size blocks: 4661436 cast cbc's in 3.00s
+Doing cast cbc for 3s on 256 size blocks: 1182337 cast cbc's in 2.99s
+Doing cast cbc for 3s on 1024 size blocks: 291178 cast cbc's in 3.00s
+Doing cast cbc for 3s on 8192 size blocks: 36712 cast cbc's in 3.00s
+Doing 512 bit private rsa's for 10s: 176741 512 bit private RSA's in 9.99s
+Doing 512 bit public rsa's for 10s: 2551556 512 bit public RSA's in 10.00s
+Doing 1024 bit private rsa's for 10s: 58466 1024 bit private RSA's in 10.00s
+Doing 1024 bit public rsa's for 10s: 903423 1024 bit public RSA's in 9.99s
+Doing 2048 bit private rsa's for 10s: 8226 2048 bit private RSA's in 10.00s
+Doing 2048 bit public rsa's for 10s: 268997 2048 bit public RSA's in 9.99s
+Doing 3072 bit private rsa's for 10s: 2618 3072 bit private RSA's in 10.00s
+Doing 3072 bit public rsa's for 10s: 126045 3072 bit public RSA's in 10.00s
+Doing 4096 bit private rsa's for 10s: 1142 4096 bit private RSA's in 10.00s
+Doing 4096 bit public rsa's for 10s: 71623 4096 bit public RSA's in 9.99s
+Doing 7680 bit private rsa's for 10s: 127 7680 bit private RSA's in 10.00s
+Doing 7680 bit public rsa's for 10s: 20453 7680 bit public RSA's in 10.00s
+Doing 15360 bit private rsa's for 10s: 23 15360 bit private RSA's in 10.14s
+Doing 15360 bit public rsa's for 10s: 5247 15360 bit public RSA's in 10.00s
+Doing 512 bit sign dsa's for 10s: 164283 512 bit DSA signs in 9.98s
+Doing 512 bit verify dsa's for 10s: 188170 512 bit DSA verify in 10.00s
+Doing 1024 bit sign dsa's for 10s: 77567 1024 bit DSA signs in 9.99s
+Doing 1024 bit verify dsa's for 10s: 70698 1024 bit DSA verify in 9.99s
+Doing 2048 bit sign dsa's for 10s: 25273 2048 bit DSA signs in 9.99s
+Doing 2048 bit verify dsa's for 10s: 20992 2048 bit DSA verify in 9.99s
+Doing 160 bit sign ecdsa's for 10s: 145676 160 bit ECDSA signs in 10.00s 
+Doing 160 bit verify ecdsa's for 10s: 41560 160 bit ECDSA verify in 9.99s
+Doing 192 bit sign ecdsa's for 10s: 126729 192 bit ECDSA signs in 10.00s 
+Doing 192 bit verify ecdsa's for 10s: 33436 192 bit ECDSA verify in 9.97s
+Doing 224 bit sign ecdsa's for 10s: 92949 224 bit ECDSA signs in 9.97s 
+Doing 224 bit verify ecdsa's for 10s: 24126 224 bit ECDSA verify in 9.99s
+Doing 256 bit sign ecdsa's for 10s: 178480 256 bit ECDSA signs in 10.00s 
+Doing 256 bit verify ecdsa's for 10s: 70411 256 bit ECDSA verify in 9.99s
+Doing 384 bit sign ecdsa's for 10s: 41190 384 bit ECDSA signs in 9.98s 
+Doing 384 bit verify ecdsa's for 10s: 9345 384 bit ECDSA verify in 9.91s
+Doing 521 bit sign ecdsa's for 10s: 19407 521 bit ECDSA signs in 9.98s 
+Doing 521 bit verify ecdsa's for 10s: 4743 521 bit ECDSA verify in 9.99s
+Doing 163 bit sign ecdsa's for 10s: 45643 163 bit ECDSA signs in 10.00s 
+Doing 163 bit verify ecdsa's for 10s: 17541 163 bit ECDSA verify in 9.99s
+Doing 233 bit sign ecdsa's for 10s: 23019 233 bit ECDSA signs in 9.99s 
+Doing 233 bit verify ecdsa's for 10s: 13459 233 bit ECDSA verify in 10.00s
+Doing 283 bit sign ecdsa's for 10s: 15129 283 bit ECDSA signs in 9.98s 
+Doing 283 bit verify ecdsa's for 10s: 7143 283 bit ECDSA verify in 10.00s
+Doing 409 bit sign ecdsa's for 10s: 6486 409 bit ECDSA signs in 10.00s 
+Doing 409 bit verify ecdsa's for 10s: 4270 409 bit ECDSA verify in 9.99s
+Doing 571 bit sign ecdsa's for 10s: 2933 571 bit ECDSA signs in 9.99s 
+Doing 571 bit verify ecdsa's for 10s: 1779 571 bit ECDSA verify in 9.99s
+Doing 163 bit sign ecdsa's for 10s: 45932 163 bit ECDSA signs in 9.99s 
+Doing 163 bit verify ecdsa's for 10s: 16788 163 bit ECDSA verify in 10.00s
+Doing 233 bit sign ecdsa's for 10s: 23150 233 bit ECDSA signs in 10.00s 
+Doing 233 bit verify ecdsa's for 10s: 12529 233 bit ECDSA verify in 10.00s
+Doing 283 bit sign ecdsa's for 10s: 15035 283 bit ECDSA signs in 9.99s 
+Doing 283 bit verify ecdsa's for 10s: 6586 283 bit ECDSA verify in 10.00s
+Doing 409 bit sign ecdsa's for 10s: 6542 409 bit ECDSA signs in 9.99s 
+Doing 409 bit verify ecdsa's for 10s: 3974 409 bit ECDSA verify in 9.98s
+Doing 571 bit sign ecdsa's for 10s: 2966 571 bit ECDSA signs in 10.00s 
+Doing 571 bit verify ecdsa's for 10s: 1688 571 bit ECDSA verify in 9.99s
+Doing 160 bit  ecdh's for 10s: 49178 160-bit ECDH ops in 10.00s
+Doing 192 bit  ecdh's for 10s: 41359 192-bit ECDH ops in 9.98s
+Doing 224 bit  ecdh's for 10s: 29701 224-bit ECDH ops in 9.99s
+Doing 256 bit  ecdh's for 10s: 100189 256-bit ECDH ops in 9.99s
+Doing 384 bit  ecdh's for 10s: 11677 384-bit ECDH ops in 9.88s
+Doing 521 bit  ecdh's for 10s: 5389 521-bit ECDH ops in 9.91s
+Doing 163 bit  ecdh's for 10s: 36219 163-bit ECDH ops in 9.99s
+Doing 233 bit  ecdh's for 10s: 28445 233-bit ECDH ops in 10.00s
+Doing 283 bit  ecdh's for 10s: 14896 283-bit ECDH ops in 10.00s
+Doing 409 bit  ecdh's for 10s: 8916 409-bit ECDH ops in 10.00s
+Doing 571 bit  ecdh's for 10s: 3780 571-bit ECDH ops in 10.00s
+Doing 163 bit  ecdh's for 10s: 34722 163-bit ECDH ops in 10.00s
+Doing 233 bit  ecdh's for 10s: 27055 233-bit ECDH ops in 10.00s
+Doing 283 bit  ecdh's for 10s: 13913 283-bit ECDH ops in 10.00s
+Doing 409 bit  ecdh's for 10s: 8267 409-bit ECDH ops in 10.00s
+Doing 571 bit  ecdh's for 10s: 3451 571-bit ECDH ops in 10.00s

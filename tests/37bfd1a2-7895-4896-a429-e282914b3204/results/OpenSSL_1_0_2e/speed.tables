@@ -1,0 +1,81 @@
+OpenSSL 1.1.0-pre2-dev  xx XXX xxxx
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -I. -I.. -I../include -Iinclude  -DOPENSSL_THREADS -pthread -DDSO_DLFCN -DHAVE_DLFCN_H -Wa,--noexecstack -m64 -DL_ENDIAN -Wall -O3 -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
+md2                  0.00         0.00         0.00         0.00         0.00 
+mdc2             10946.06k    12627.54k    12881.32k    13068.29k    13071.70k
+md4              45307.64k   150627.06k   417377.54k   714961.92k   912097.28k
+md5              98449.36k   242203.07k   428848.73k   530414.53k   569884.67k
+hmac(md5)        44432.04k   134890.60k   321474.22k   487775.72k   570837.67k
+sha1            101150.94k   248051.09k   453036.03k   574690.65k   631095.30k
+rmd160           26146.60k    69182.38k   136158.04k   180516.52k   200723.18k
+rc4             395764.94k   597817.05k   704414.57k   713446.40k   712160.60k
+des cbc          58986.65k    60835.09k    62411.35k    62761.64k    62916.75k
+des ede3         22558.81k    22503.23k    23347.71k    22754.65k    22904.83k
+idea cbc         71105.93k    74567.85k    77219.50k    75884.54k    75926.19k
+seed cbc         65006.36k    68056.34k    67297.86k    66533.03k    67267.24k
+rc2 cbc          39584.31k    40351.06k    40818.43k    40385.88k    41041.92k
+rc5-32/12 cbc        0.00         0.00         0.00         0.00         0.00 
+blowfish cbc    100831.31k   107478.67k   112619.52k   110328.49k   111293.78k
+cast cbc         90324.54k    96115.93k    98669.31k    98511.87k    98587.99k
+aes-128 cbc      87529.18k   104974.72k   107378.01k    93270.99k   108022.44k
+aes-192 cbc      82831.70k    74660.67k    88274.19k    89697.62k    82550.78k
+aes-256 cbc      61591.81k    63411.39k    75768.06k    75462.66k    65432.23k
+camellia-128 cbc    79397.48k   128424.05k   146582.19k   149208.06k   150918.49k
+camellia-192 cbc    70656.04k   100458.41k   110426.71k   113485.14k   117594.93k
+camellia-256 cbc    68900.09k    97537.09k   108906.68k   114416.64k   116353.71k
+sha256           57276.03k   123335.75k   208638.21k   251539.11k   272591.53k
+sha512           40562.14k   159783.08k   244643.24k   340299.43k   389808.13k
+whirlpool        25070.35k    52512.36k    85768.19k   102181.89k   110016.64k
+aes-128 ige      85139.22k    97357.46k    93580.54k   102398.98k    89492.81k
+aes-192 ige      78321.42k    77087.64k    73280.77k    86199.30k    81420.29k
+aes-256 ige      65495.18k    63678.27k    74572.12k    70024.48k    67390.12k
+ghash           737705.81k  1180827.78k  1666415.70k  1715763.20k  1487484.25k
+                  sign    verify    sign/s verify/s
+rsa  512 bits 0.000063s 0.000005s  15751.1 212354.0
+rsa 1024 bits 0.000196s 0.000013s   5110.3  77855.4
+rsa 2048 bits 0.001367s 0.000041s    731.3  24127.9
+rsa 3072 bits 0.004256s 0.000090s    235.0  11119.0
+rsa 4096 bits 0.009960s 0.000152s    100.4   6592.6
+rsa 7680 bits 0.083223s 0.000492s     12.0   2031.4
+rsa 15360 bits 0.455455s 0.001955s      2.2    511.4
+                  sign    verify    sign/s verify/s
+dsa  512 bits 0.000061s 0.000055s  16335.2  18293.4
+dsa 1024 bits 0.000151s 0.000151s   6618.8   6631.5
+dsa 2048 bits 0.000421s 0.000521s   2376.2   1919.3
+                              sign    verify    sign/s verify/s
+ 160 bit ecdsa (secp160r1)   0.0001s   0.0003s  12405.6   3510.1
+ 192 bit ecdsa (nistp192)   0.0001s   0.0003s  10791.1   3227.9
+ 224 bit ecdsa (nistp224)   0.0001s   0.0005s   8833.3   1973.4
+ 256 bit ecdsa (nistp256)   0.0001s   0.0001s  15558.8   6865.5
+ 384 bit ecdsa (nistp384)   0.0003s   0.0011s   3779.4    952.0
+ 521 bit ecdsa (nistp521)   0.0006s   0.0023s   1742.5    434.2
+ 163 bit ecdsa (nistk163)   0.0002s   0.0006s   4367.8   1575.0
+ 233 bit ecdsa (nistk233)   0.0005s   0.0008s   2040.8   1267.8
+ 283 bit ecdsa (nistk283)   0.0007s   0.0016s   1439.0    640.7
+ 409 bit ecdsa (nistk409)   0.0018s   0.0026s    569.3    382.0
+ 571 bit ecdsa (nistk571)   0.0038s   0.0058s    263.1    171.7
+ 163 bit ecdsa (nistb163)   0.0002s   0.0007s   4180.8   1450.1
+ 233 bit ecdsa (nistb233)   0.0004s   0.0008s   2244.7   1314.0
+ 283 bit ecdsa (nistb283)   0.0007s   0.0015s   1493.3    663.4
+ 409 bit ecdsa (nistb409)   0.0016s   0.0026s    639.5    391.7
+ 571 bit ecdsa (nistb571)   0.0034s   0.0063s    292.5    157.7
+                              op      op/s
+ 160 bit ecdh (secp160r1)   0.0002s   4143.4
+ 192 bit ecdh (nistp192)   0.0003s   3633.2
+ 224 bit ecdh (nistp224)   0.0004s   2532.2
+ 256 bit ecdh (nistp256)   0.0001s   8731.1
+ 384 bit ecdh (nistp384)   0.0010s   1041.3
+ 521 bit ecdh (nistp521)   0.0018s    558.3
+ 163 bit ecdh (nistk163)   0.0003s   3269.9
+ 233 bit ecdh (nistk233)   0.0004s   2498.5
+ 283 bit ecdh (nistk283)   0.0009s   1158.1
+ 409 bit ecdh (nistk409)   0.0013s    779.4
+ 571 bit ecdh (nistk571)   0.0031s    317.6
+ 163 bit ecdh (nistb163)   0.0003s   3044.7
+ 233 bit ecdh (nistb233)   0.0004s   2606.0
+ 283 bit ecdh (nistb283)   0.0008s   1306.4
+ 409 bit ecdh (nistb409)   0.0012s    805.6
+ 571 bit ecdh (nistb571)   0.0031s    325.8
