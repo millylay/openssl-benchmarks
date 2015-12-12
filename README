@@ -1,0 +1,28 @@
+Prep:
+	This will take a while to run.
+
+	You may want to mount /tmp as ramfs,
+	as we're going to be building every OpenSSL
+	version and then running the built-in benchmark.
+
+	Sudo access is preferred but not required.
+
+Execution
+
+	1. Fork https://github.com/rsaxvc/openssl-benchmarks
+	2. Clone your tasty new repo
+	3. On mostly idle system, run ./benchmark.sh
+		Note: sudo is used to set the CPU governor
+		and the 'nice' value to '-20', then changes back
+		to your user. If you don't have sudo access, or
+		just plain don't want to, you can run
+		./benchmark.1.sh instead, but your results may
+		be suboptimal.
+	4. `git push` to your repo.
+	5. Create pull request.
+
+Privacy:This tool will log hostname, openssl performance,
+	CPU and memory information. See
+	"capture some machine information" in benchmark.1.sh
+	for the complete list, or see the 'machine'
+	directory in the output folder.
