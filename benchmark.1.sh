@@ -18,7 +18,7 @@ echo $CPUFREQ > $MACHINE_DIR/cpuinfo_cur_freq
 ./benchmark.2.sh `realpath $RESULT_DIR`
 if [ $? -eq 0 ]
 	then
-	git add $RESULT_DIR
+	git add $OUTPUT_DIR
 	git commit -m"Benchmarked $CPU"
 else
 	echo "An error ocurred while benchmarking"
